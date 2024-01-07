@@ -1,0 +1,10 @@
+{
+    "project_name": "Cookiecutter Cartesi DApp",
+    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "package_name": "{{ cookiecutter.repo_name }}",
+    "__prompts__": {
+        "project_name": "Enter the Project Name",
+        "repo_name": "Name for the root directory of the repository",
+        "package_name": "Name for the main package in the repository"
+    }
+}
