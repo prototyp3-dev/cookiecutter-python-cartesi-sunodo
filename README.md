@@ -1,4 +1,4 @@
-# Cookiecutter Cartesi DApp with Sunodo
+# Cookiecutter Cartesi DApp with Cartesi CLI
 
 This is a [Cookiecutter](https://github.com/audreyr/cookiecutter) template for a Cartesi DApp written in Python and using the [python-cartesi](https://github.com/prototyp3-dev/python-cartesi) framework and [Sunodo](https://sunodo.io/).
 
@@ -7,7 +7,7 @@ This is a [Cookiecutter](https://github.com/audreyr/cookiecutter) template for a
 This template initialized a minimal DApp with the following features:
 
 - Sample implementation of the "echo" example
-- Using [Sunodo](https://sunodo.io/) as the dapp build system
+- Using [Cartesi CLI](https://github.com/cartesi/cli) as the dapp build system
 - Requirements managed by [pip-tools](https://pip-tools.readthedocs.io/en/latest/)
 - Test case for the sample dapp using pytest
 
@@ -17,12 +17,12 @@ To use this template, it is assumed you already have the following dependencies:
 
 - Cookiecutter installed in your python environment
 - NodeJS version 18 available
-- Sunodo CLI installed (`npm install -g @sunodo/cli`)
+- Cartesi CLI installed (`npm install -g @cartesi/cli`)
 
 To create your project, you can execute:
 
 ```shell
-cookiecutter gh:prototyp3-dev/cookiecutter-python-cartesi-sunodo
+cookiecutter gh:prototyp3-dev/cookiecutter-python-cartesi
 ```
 
 You will be asked the following questions:
